@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css-Traversing</title>
+  <style>
+   body>main:nth-child(3)>section:nth-child(3)>div:nth-child(2)>article>section>ul:nth-child(3)>li:nth-child(2){
+     color: red;
+     font-size: 30px;
+   }
+  </style>
+</head>
+<body>
+<h1>CSS Traversing using selectors</h1>
+<main>
+  <article>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Natus, veniam eum maiores earum alias officia nemo voluptate ipsam distinctio, mollitia dignissimos rerum similique odit ab dolore laborum voluptatem,
+        magni voluptatum!</p>
+      <ul>
+        <li>hello</li>
+        <li>hello2</li>
+        <li>hello3</li>
+      </ul>
+    </section>
+  </article>
+</main>
+
+<main>
+  <section id="fristSection">
+    <article>
+      <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Natus, veniam eum maiores earum alias officia nemo voluptate ipsam distinctio, mollitia dignissimos rerum similique odit ab dolore laborum voluptatem,
+          magni voluptatum!</p>
+        <ul>
+          <li>helloww</li>
+          <li>hello2</li>
+          <li>hello3</li>
+        </ul>
+      </section>
+    </article>
+  </section>
+  <section >
+  </section>
+  <section >
+
+    <div>
+      <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Natus, veniam eum maiores earum alias officia nemo voluptate ipsam distinctio, mollitia dignissimos rerum similique odit ab dolore laborum voluptatem,
+          magni voluptatum!</p>
+        <ul>
+          <li>helloppp</li>
+          <li>hello2</li>
+          <li>hello3</li>
+        </ul>
+      </article>
+    </div>
+
+    <div>
+      <article>
+        <div>
+        </div>
+        <section>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Natus, veniam eum maiores earum alias officia nemo voluptate ipsam distinctio, mollitia dignissimos rerum similique odit ab dolore laborum voluptatem,
+            magni voluptatum!</p>
+          <ul>
+            <li>Wrong Select</li>
+          </ul>
+          <ul>
+            <li>hello</li>
+            <li>hello2-Select and change color</li>
+            <li>hello3</li>
+          </ul>
+        </section>
+      </article>
+    </div>
+
+    <div>
+      <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Natus, veniam eum maiores earum alias officia nemo voluptate ipsam distinctio, mollitia dignissimos rerum similique odit ab dolore laborum voluptatem,
+          magni voluptatum!</p>
+        <ul>
+          <li>hello</li>
+          <li>hello2</li>
+          <li>hello3</li>
+          </ul>
+      </section>
+    </div>
+
+  </section>
+</main>
+<main>
+</main>
+</body>
+</html>
